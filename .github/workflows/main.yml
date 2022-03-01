@@ -25,7 +25,7 @@ jobs:
           # Options
           user: Kavinjsir
           template: classic
-          base: header, repositories, metadata
+          base: header, metadata
           config_timezone: America/New_York
           plugin_activity: yes
           plugin_activity_days: 14
@@ -46,5 +46,3 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
-          plugin_projects: yes
-          plugin_projects_limit: 4
