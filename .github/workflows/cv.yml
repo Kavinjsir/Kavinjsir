@@ -10,6 +10,5 @@ jobs:
       - uses: actions/checkout@main
       - name: Build pdf from tex
         id: build
-        uses: Kavinjsir/latex-compiler@v1.7
-      - name: View output
-        run: ls /github/workspace
+        uses: Kavinjsir/latex-compiler@v1.8
+
