@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: Build pdf from tex
         id: build
-        uses: Kavinjsir/latex-compiler@v1.1
+        uses: Kavinjsir/latex-compiler@v1.1.1
       - name: View output
         run: ls /github/workspace
