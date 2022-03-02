@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Create cover letter
     steps:
+      - uses: actions/checkout@main
       - name: Build pdf from tex
         id: build
         uses: Kavinjsir/latex-compiler@v1.5
