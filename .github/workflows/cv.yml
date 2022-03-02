@@ -11,4 +11,8 @@ jobs:
       - name: Build pdf from tex
         id: build
         uses: Kavinjsir/latex-compiler@v1.8
+      - uses: actions/upload-artifact@v2
+        with:
+          name: output
+          path: /github/workspace/resume.pdf
 
