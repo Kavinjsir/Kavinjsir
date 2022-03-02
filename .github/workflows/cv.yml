@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - cv
+jobs:
+  cv-job:
+    runs-on: ubuntu-latest
+    name: Create cover letter
+    steps:
+      - name: Build pdf from tex
+        id: build
+        uses: Kavinjsir/latex-compiler@v1.1
+      - name: View output
+        run: ls /github/workspace
