@@ -14,5 +14,5 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: output
-          path: /github/workspace/resume.pdf
+          path: /github/workspace/cv/resume.pdf
 
