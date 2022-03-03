@@ -26,5 +26,6 @@ jobs:
           stat ${GITHUB_WORKSPACE}/cv/resume.pdf
       - uses: actions/upload-artifact@v2
         with:
+          name: tony_cv
           path: ${{ github.workspace }}/cv/resume.pdf
 
