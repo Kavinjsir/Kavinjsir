@@ -7,12 +7,20 @@ jobs:
     runs-on: ubuntu-latest
     name: Create cover letter
     steps:
-      - uses: actions/checkout@main
-      - name: Build pdf from tex
+      - uses: actions/checkout@v3
+        with:
+          ref: cv
+      - name: Move to cv directory
+        id: move
+        run: cd ${GITHUB_WORKSPACE}/cv
+      - name: Build Latex image
         id: build
-        uses: Kavinjsir/latex-compiler@v1.8
+        run: docker build -t latex-compiler .
+      - name: Create cover letter
+        id: compile
+        run: docker run --rm -v ${GITHUB_WORKSPACE}/cv:/data tx xelatex resume.tex
       - uses: actions/upload-artifact@v2
         with:
           name: output
-          path: /github/workspace/cv/resume.pdf
+          path: ${GITHUB_WORKSPACE}/cv/resume.pdf
 
