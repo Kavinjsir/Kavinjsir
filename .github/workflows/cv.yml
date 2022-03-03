@@ -15,10 +15,10 @@ jobs:
         run: cd ${GITHUB_WORKSPACE}/cv
       - name: Build Latex image
         id: build
-        run: docker build -t latex-compiler .
+        run: docker build -f ${GITHUB_WORKSPACE}/cv/Dockerfile -t latex-compiler .
       - name: Create cover letter
         id: compile
-        run: docker run --rm -v ${GITHUB_WORKSPACE}/cv:/data tx xelatex resume.tex
+        run: docker run --rm -v ${GITHUB_WORKSPACE}/cv:/data latex-compiler xelatex resume.tex
       - uses: actions/upload-artifact@v2
         with:
           name: output
