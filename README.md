@@ -1,4 +1,4 @@
-<img width="480" align="right" src="/github-metrics.svg" alt="Metrics">
+<img width="450" align="right" src="/github-metrics.svg" alt="Metrics">
 
 ### 📖 About Me
 - ⛵ Developer on Cloud-Infra, DevOps
