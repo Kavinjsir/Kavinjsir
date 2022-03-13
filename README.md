@@ -14,9 +14,9 @@ Trying to learn and contribute to Kubebuilder
 ```
 - 🎯 In the near future, I'm planning to...
   - Pragmatically run the monitoring stacks: prometheus-operator + kubernetes-mixin + jsonnet + tanka
-  - Follow up with the lastest Grafana stacks: 
+  - Follow up with the lastest Grafana stacks and community
   - Establish the logging system through Loki
 - 🧐 To extend a bit longer, I wish myself...
   - Implement the whole labs of CSAPP
   - Contribute to Kubernetes
-  - Able to develop well in Rust
+  - Write fluent Rust
