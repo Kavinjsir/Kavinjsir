@@ -13,7 +13,7 @@
 Trying to learn and contribute to Kubebuilder
 ```
 - 🎯 In the near future, I'm planning to...
-  - Pragmatically run the monitoring stacks: prometheus-operator + kubernetes-mixin + jsonnet + tanka
+  - Pragmatically run the monitoring stacks: prometheus-operator + kubernetes-mixin + jsonnet + tanka 📈 [progressing...](https://github.com/Kavinjsir/kube-monitor/tree/main/tanka)
   - Follow up with the lastest Grafana stacks and community
   - Establish the logging system through Loki
 - 🧐 To extend a bit longer, I wish myself...
