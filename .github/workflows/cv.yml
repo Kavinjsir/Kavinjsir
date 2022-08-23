@@ -1,4 +1,6 @@
 on:
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
   push:
     branches:
       - cv
