@@ -104,6 +104,18 @@
   \ifthenelse{\isempty{#1}}%
     {\href{#2}{#2}}
     {\href{#2}{#1}}}
+% defines one's docs
+% usage: \docs{<docs>}
+\newcommand{\docs}[2][]{\faBook\
+  \ifthenelse{\isempty{#1}}%
+    {\href{#2}{#2}}
+    {\href{#2}{#1}}}
+% defines one's youtube
+% usage: \youtube{<youtube>}
+\newcommand{\youtube}[2][]{\faYoutubePlay\
+  \ifthenelse{\isempty{#1}}%
+    {\href{#2}{#2}}
+    {\href{#2}{#1}}}
 % defines one's homepage
 % usage: \homepage{<homepage>}
 \newcommand{\homepage}[2][]{\faLink\ 
