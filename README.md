@@ -5,7 +5,7 @@
 - ⛵ Developer on Cloud-Infra, DevOps
 - 🐾 Using Go frequently, used to write many TypeScript
 - ❄️ Studying for MSCS @BU
-- 🏹 Recently joined Azure for Operators team
+- 🏹 Recently joined [Azure for Operators team](https://azure.microsoft.com/en-us/solutions/industries/telecommunications/#overview) <img src="https://img.icons8.com/fluency/512/azure-1.png" height="16em" align="center"/>
 - 🕸️ Mostly focus on _K8s <img src="https://img.icons8.com/color/48/000000/kubernetes.png" height="16em" align="center"/> Prometheus <img src="https://cncf-branding.netlify.app/img/projects/prometheus/icon/color/prometheus-icon-color.png" height="16em" align="center" /> Grafana <img src="https://grafana.com/static/img/menu/grafana2.svg" height="16em" align="center" />_
 
 ### ⬆ What I'm up to
