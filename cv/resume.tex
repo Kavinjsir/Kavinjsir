@@ -11,7 +11,7 @@
   \email{kavinjsir@gmail.com} \textperiodcentered\ 
   \phone{(+1)617-870-9580} \textperiodcentered\ 
   \github[Kavinjsir]{https://github.com/Kavinjsir} \textperiodcentered\
-  \linkedin[Tianyi Jin]{https://www.linkedin.com/in/tianyi-j-84b223146/}}
+  \linkedin[Tony Jin]{https://www.linkedin.com/in/tony-j-84b223146/}}
 
 \section{\faGraduationCap\ Education}
 \datedsubsection{\textbf{Boston University (BU)}, Boston, United States}{2021 -- 2023}
@@ -22,51 +22,34 @@
 \section{\faCogs\ Skills}
 \begin{itemize}[parsep=0.5ex]
   \item Experienced software engineer with a background of SRE \& DevOps; Member of Kubernetes SIGs
-  \item Infra Stacks: Kubernetes, AWS, Terraform, Gitlab-CI, Nginx
-  \item Monitoring Stacks: Prometheus, Grafana, Thanos, Loki, Jaeger
-  \item Programming Languages: Go, Linux shell, TypeScript
-  \item App Stacks: ReactJS, PostgreSQL, Express.JS
-\end{itemize}
-
-\section{\faUsers\ Contribution Experience}
-\datedsubsection{\textbf{Google Summer of Code 2022} | Kubernetes Contributor, CNCF | Remote}{June 2022 -- Sep 2022}
-% \role{Developer}{}
-A Grafana Dashboard Plugin to Observe K8s Operator Status
-\begin{itemize}
-  \item Created a new plugin to scaffold Grafana manifests for operator status visualization.
-  \item Expanded functionalities to support scaffolding on user-defined custom metrics.
-  \item Stacks: Go, Grafana, Prometheus, Kubernetes.
-  \item Details:
-    \docs[Kubebuilder Grafana Plugin]{https://book.kubebuilder.io/plugins/grafana-v1-alpha.html} \textperiodcentered\
-    \youtube[Show Case]{https://www.youtube.com/watch?v=-w\_JjcV8jXc&t=2s&ab\_channel=CamilaMacedo} \textperiodcentered\
-    .
+  \item Infra Stacks: Kubernetes, AWS, Azure, Terraform, Nginx, Gitlab-CI
+  \item Monitoring Stacks: Prometheus, Grafana, Thanos, Loki, Jaeger, OpenTelemetry
+  \item Programming Languages: Go, TypeScript, Linux shell
+  \item App Stacks: ReactJS, Express.JS, PostgreSQL
 \end{itemize}
 
 \section{\faUsers\ Working Experience}
-\datedsubsection{\textbf{Second Spectrum} | Software Engineer, Infra Team | Los Angeles, CA}{Feb 2019 -- Sep 2021}
+\datedsubsection{\textbf{Microsoft} | Senior Software Engineer(Contractor), Azure for Operator | Boston, MA}{Jan 2023 -- }
 % \role{DevOps Engineer}{Infra Team}
-Developed an Incident Management System Company Wide
 \begin{itemize}
-  \item Implemented a telemetry system providing precise metrics to efficiently track +200 apps status.
-  \item Setup an alerting system with over 50 rules\&alerts to achieve emergency response within 5 minutes.
-  \item Built over 30 monitoring dashboards to simplify app monitoring (Dropped 40\% debugging time).
-  \item Stacks: Prometheus AlertManager, Grafana, Jaeger, OpenTelemetry, Loki.
+  \item Empowered the network infrastructure with high reliability and efficiency by Kubernetes operators.
+  \item Enriched testing automation with virtual resources by Kubebirt to validate Azure products criteria.
+  \item Standardized Azure DevOps pipelines to achieve high quality assurance and boost lifecycle efficiency.
+% \item Created standardized Azure DevOps pipeline Docker image to support common tooling such as Golang, Helm, and linters for multiple repositories across Azure for Operators organization
+% \item Introduced Semantic Versioning for publishing Docker images for developers to better understand impact of changes
+% \item Enhanced end-to-end testing CI/CD pipeline to automatically deploy virtual infrastructure to simulate bare metal environment using bash and reusable Azure DevOps pipeline templates Explored transforming other teams' repositories for general usage across the organization for common CI/CD pipeline scenarios
+% \item Stacks: Golang, Kubernetes, Azure DevOps.
 \end{itemize}
 
-Cost Saving (Save 60\% Cost on Cloud Infra)
+\datedsubsection{\textbf{Second Spectrum} | Software Engineer, Infra Team | Los Angeles, CA}{Feb 2018 -- Sep 2021}
+% \role{DevOps Engineer}{Infra Team}
+Take charge of multiple infra platforms to drive the entire company
 \begin{itemize}
-  \item Established alerts and dashboards to monitor apps requesting excessive resources.
-  \item Accomplished a scheduler to dynamically rotating AWS Aurora RDS based on DB utilization.
-  \item Dynamically allocate resources for apps with integration of K8s Hpa and AWS Cluster Autoscaler.
-  \item Stacks: AWS Cluster Autoscaler, K8s Horizontal Pod Autoscaling, Prometheus Metrics Exporter.
-\end{itemize}
-
-Boost Up Deployment Efficiency
-\begin{itemize}
-  \item Standardized operations on AWS based on IaC tools to safely and efficiently provision infra.
-  \item Improved infrastructure to simplify operations on apps' lifecycle and speed up deployment.
-  \item Designed Dockerfile templates for different code base to improve building efficiency.
-  \item Stacks: Terraform, Vault, Kustomize, Dockerfile, ChatOps.
+  \item Explored and standardized AWS workflows with IaC tools to safely and efficiently provision app resources.
+  \item Improved infrastructure to simplify operations on the apps' lifecycle and speeded up deployment process.
+  \item Implemented a telemetry system providing plentiful and precise metrics to efficiently track +200 apps.
+  \item Dynamically allocated resources with the integration of K8s Hpa and AWS Cluster Autoscaler.
+  \item Stacks: Kubernetes, AWS, Terraform, Prometheus, Grafana, Loki
 \end{itemize}
 
 % \datedsubsection{\textbf{Second Spectrum} | Software Engineer, App Team | Shanghai, China}{Jan 2018 -- Jan 2019}
@@ -83,10 +66,36 @@ Boost Up Deployment Efficiency
 % \role{Technology Intern}{Fin Tech}
 Developed a Clearing System for Sydney Futures Exchange(SFE)
 \begin{itemize}
-  \item Delivered upstream components in SFE clearing system with high level security.
+  \item Delivered upstream components in the SFE clearing system with high-level security.
   \item Introduced a message queue system to safely and flexibly transform and route data.
-  \item Conduct unit tests of a 90\% coverage and integration test to run smoothly on staging.
-  \item Stacks: Apache Camel, ActiveMQ.
+  \item Conducted unit tests of a 90\% coverage and integration test to run smoothly on staging.
+  \item Stacks: Apache Camel, ActiveMQ, Java.
+\end{itemize}
+
+\section{\faUsers\ Contribution Experience}
+
+\datedsubsection{\textbf{The Kubebuilder Community} | Reviewer, Contributor, Kubernetes-sigs}{Mar 2022 -- }
+% \role{Developer}{}
+Maintenance (Reviewer) of the kubebuilder community
+\begin{itemize}
+  \item New feature designs and implementation, codebase enhancement, CI/CD improvement, proposals
+  \item Daily contribution includes: bi-weekly meeting, PR reviews, community QA, Documentation
+  \item Propagation:
+    \docs [Kubecon 2023 EU Speaker]{https://sched.co/1HyUw} \textperiodcentered\
+    \docs [GSoC 2023 Mentor]{https://github.com/cncf/mentoring/pull/844} \textperiodcentered\
+  % \item Stacks: Go, Kubernetes
+\end{itemize}
+
+\datedsubsection{\textbf{Google Summer of Code 2022} | Kubernetes Contributor, CNCF}{Jun 2022 -- Oct 2022}
+% \role{Developer}{}
+A Grafana Dashboard Plugin to Observe K8s Operator Status
+\begin{itemize}
+  \item Created a new plugin to scaffold Grafana manifests for operator status visualization.
+  \item Expanded functionalities to support scaffolding on user-defined custom metrics.
+  % \item Stacks: Go, Grafana, Prometheus, Kubernetes.
+  \item Details:
+    \docs[Kubebuilder Grafana Plugin]{https://book.kubebuilder.io/plugins/grafana-v1-alpha.html} \textperiodcentered\
+    \youtube[Show Case]{https://www.youtube.com/watch?v=-w\_JjcV8jXc&t=2s&ab\_channel=CamilaMacedo} \textperiodcentered\
 \end{itemize}
 
 % Reference Test
