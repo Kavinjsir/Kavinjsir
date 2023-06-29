@@ -21,6 +21,5 @@ Continually learning and contributing to the Kubebuilder project.
   - Develop a robust logging system leveraging [Loki](https://github.com/grafana/loki) <img src="https://grafana.com/static/img/logos/logo-loki.svg" height="16em" align="center" />
   - Stay current with the latest Grafana stacks and community news ([Mimir](https://github.com/grafana/mimir)) <img src="https://grafana.com/static/img/logos/logo-mimir.svg" height="16em" align="center" />
 - 🧐 To extend a bit longer, I wish myself...
-  - Contribute to K8s, particularly in the areas of testing and instrumentation (#sigs-testing, #sigs-instrumentation).
-  - Complete the lab series of Computer Systems: A Programmer's Perspective (CSAPP).
-  - Achieve fluency in Rust programming.
+  - Contribute significantly to the Cloud Native Community.
+  - Achieve proficiency in Rust programming.
