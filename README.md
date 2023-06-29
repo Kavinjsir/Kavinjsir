@@ -13,7 +13,7 @@
 - 🔨 At present, I am...
 
 ```yaml
-Continually learning and contributing to the Kubebuilder project.
+Continually contributing to the Kubebuilder project.
 ```
 
 - 🎯 In the near future, I'm planning to...
