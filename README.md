@@ -5,7 +5,7 @@
 - ⛵ Engineering on Cloud-Infra, DevOps, SRE
 - 🐾 Gopher <img src="https://raw.githubusercontent.com/golang/website/master/_content/images/gopher-footer.jpg" height="16em" />, used to write many TypeScript <img src="https://github.com/Kavinjsir/Kavinjsir/assets/18136486/51348c54-2389-48b0-b432-739a11e0cc17" height="16em" />
 - 🏹 Currently working on [Azure Operator Nexus](https://azure.microsoft.com/en-us/products/operator-nexus) team <img src="https://img.icons8.com/fluency/512/azure-1.png" height="16em" align="center"/>
-- 🕸️ Mostly focus on _K8s <img src="https://img.icons8.com/color/48/000000/kubernetes.png" height="16em" align="center"/> Prometheus <img src="https://cncf-branding.netlify.app/img/projects/prometheus/icon/color/prometheus-icon-color.png" height="16em" align="center" /> Grafana <img src="https://grafana.com/static/img/menu/grafana2.svg" height="16em" align="center" />_
+- 🕸️ Mostly focus on _K8s <img src="https://img.icons8.com/color/48/000000/kubernetes.png" height="16em" align="center"/> Prometheus <img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/prometheus/icon/color/prometheus-icon-color.svg" height="16em" align="center" /> Grafana <img src="https://grafana.com/static/img/menu/grafana2.svg" height="16em" align="center" />_
 - ❄️  MSCS @BU, BSc @SJTU
 
 ### ⬆ Current Endeavors
