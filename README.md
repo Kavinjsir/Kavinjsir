@@ -11,9 +11,9 @@
 
 - 🔨 At present, I am...
 
-```
-exploring k8s extensibility for data-intensive sources at Rill.
-```
+    ```
+    exploring k8s extensibility for data-intensive sources at Rill.
+    ```
 
 - 🎯 In the near future, I'm planning to...
   - Deepen my understanding of the [OLM](https://github.com/operator-framework/operator-lifecycle-manager) <img src="https://olm.operatorframework.io/favicons/favicon-32x32.png" height="16em" align="center" />
