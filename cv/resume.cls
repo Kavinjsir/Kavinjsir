@@ -82,6 +82,9 @@
   {\large\scshape{#1}}
 }
 
+%  faHome
+\newcommand{\address}[1]{\faHome\ {#1}}
+
 % defines one's email
 % usage: \email{<email>}
 \newcommand{\email}[1]{\faEnvelope\ \href{mailto:#1}{#1}}
